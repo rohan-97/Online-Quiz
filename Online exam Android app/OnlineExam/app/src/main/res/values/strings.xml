@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">OnlineExam</string>
+    <string name="marks">Marks=</string>
+    <string name="this_is_result_tab">this is result tab</string>
+    <string name="yourMarks">"Your Marks: "</string>
+    <string name="name">Name:</string>
+    <string name="changu">e.g Changu</string>
+    <string name="ip_address">IP Address:</string>
+    <string name="e_g_192_168_1_2">e.g 192.168.1.2</string>
+    <string name="e_g_2018">e.g 2018</string>
+    <string name="branch">Branch:</string>
+    <string name="roll_no">Roll No:</string>
+    <string name="e_g_14it1050">e.g 14IT1050</string>
+    <string name="e_g_i_t">e.g I.T</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="port_no">Port No:</string>
+    <string name="submit">Submit</string>
+</resources>

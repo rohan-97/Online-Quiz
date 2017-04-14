@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16sp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/body">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/exam" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp">
+        <TableRow>
+            <TextView
+                android:id="@+id/name"
+                android:text="@string/name"
+                android:textSize="25sp"
+                android:textColor="@color/label"
+                />
+            <EditText
+                android:id="@+id/Name"
+                android:hint="@string/changu"
+                android:textSize="25sp"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/hint"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/roll"
+                android:text="@string/roll_no"
+                android:textSize="25sp"
+                android:textColor="@color/label"
+                />
+            <EditText
+                android:id="@+id/Roll_No"
+                android:hint="@string/e_g_14it1050"
+                android:textSize="25sp"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/hint"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/branch"
+                android:text="@string/branch"
+                android:textColor="@color/label"
+                android:textSize="25sp" />
+            <EditText
+                android:id="@+id/Branch"
+                android:hint="@string/e_g_i_t"
+                android:textSize="25sp"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/hint"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/gender"
+                android:text="@string/gender"
+                android:textColor="@color/label"
+                android:textSize="25sp" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:checkedButton="@android:integer/config_mediumAnimTime"
+                android:id="@+id/genderGroup">
+                <RadioButton
+                    android:id="@+id/Male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male"
+                    android:checked="true"/>
+                <RadioButton
+                    android:id="@+id/Female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female" />
+
+            </RadioGroup>
+
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/ip"
+                android:text="@string/ip_address"
+                android:textColor="@color/label"
+                android:textSize="25sp" />
+            <EditText
+                android:id="@+id/Ip"
+                android:hint="@string/e_g_192_168_1_2"
+                android:textSize="25sp"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/hint"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/port"
+                android:text="@string/port_no"
+                android:textColor="@color/label"
+                android:textSize="25sp" />
+            <EditText
+                android:id="@+id/Port"
+                android:hint="@string/e_g_2018"
+                android:textSize="25sp"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/hint"
+                />
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:id="@+id/submit"
+        android:text="@string/submit"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="move"/>
+</LinearLayout>
+</ScrollView>
